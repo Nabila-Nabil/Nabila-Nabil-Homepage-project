@@ -1,0 +1,503 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-weight: normal;
+}
+
+div#header li {
+    padding: 30px;
+    font-weight: bold;
+    display: inline-flex;
+    margin-top: 15px;
+    color: white;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 18px;
+    position: relative;
+}
+
+div#header ul {
+    background-color: rgba(27, 27, 27, 1);
+    /* position:relative; */
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    /* justify-content: space-around; */
+    margin: 0px;
+}
+
+div#header a {
+    text-decoration: none;
+}
+
+
+div#header li:hover {
+    text-decoration: none;
+    color: blueviolet;
+  
+    
+}
+
+
+/* div#header {
+    /* height: 30%; 
+
+} */
+
+#part1_welcome {
+    background-color: rgba(27, 27, 27, 1);
+    color: #fff;
+}
+
+/* #float_left_col{
+    float: left;
+    width: 15%;
+} */
+#Text_containter_welcome {
+
+    width: 40%;
+    float: inline-start;
+    padding-left: 15%;
+
+}
+
+div#welcomeTextANDimg {
+    width: 85%;
+    margin: auto;
+}
+
+div#medusa_welcome_Top img {
+    /* float: right;  */
+    width: 72%;
+    transition: width 2s, height 2s, transform 2s;
+}
+div#medusa_welcome_Top img:hover{
+    width: 79%;
+}
+
+div#WelcomeTo {
+    padding-top: 5%;
+    text-align: center;
+}
+
+div#medusa_welcome_Top {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    overflow: overlay;
+
+    /* padding: 10px; */
+
+    /* float: right; */
+}
+
+div#Welcome_page_buttons {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+div#Welcome_page_buttons button,
+div#part4_service_buttons button {
+    font-family: poppins light;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 30px;
+    background-color: transparent;
+    color: #fff;
+    width: 25%;
+    border-radius: 50px;
+    border: 2px;
+    border-color: blueviolet;
+    border-collapse: collapse;
+    border-style: solid;
+  transition:   width 2s, height 2s, transform 2s;
+}
+div#Welcome_page_buttons button:hover,
+div#part4_service_buttons button:hover{
+
+    transform: translate(00px,-50px);
+    box-shadow: 0px 0px 25px 0px rgba(170, 170, 170, 0.25);
+}
+
+div#part2_quote {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #fff;
+    color: rgba(27, 27, 27, 1);
+}
+
+div#part2_quote button {
+    text-align: center;
+    padding: 15px;
+    margin: 0px 30px;
+    background-color: blueviolet;
+    color: #fff;
+    width: 25%;
+    border-radius: 50px;
+    border: 2px;
+    border-color: blueviolet;
+    border-collapse: collapse;
+    border-style: solid;
+    font-family: poppins light;
+    font-size: 20px;
+    transition: width 2s, height 2s, transform 2s;
+
+}
+div#part2_quote button:hover,div#form input[type="button"]:hover{
+    transform: translate(00px,30px);
+    box-shadow: 0px 0px 25px 0px rgba(252, 178, 255, 0.747);
+}
+
+div#part3_quote {
+    margin-top: 10%;
+    font-size: x-large;
+    padding: 10%;
+    color: #fff;
+    background-color: rgba(27, 27, 27, 1);
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('design_files/purple_bg-.png');
+
+    /* Full height */
+    height: 50%;
+
+    padding: 2.5% 25%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+div#Service-replaceCard-container {
+    position: relative;
+
+}
+
+div#part4_service_buttons {
+    position: relative;
+    width: 100%;
+    height: 600px;
+
+    /* position: absolute;
+    width: 50%;
+    height: 50%; */
+
+
+    color: #fff;
+    background-color: rgba(27, 27, 27, 1);
+
+}
+
+div#spanBeforeSticky {
+    padding-top: 10%;
+    padding-bottom: 4%;
+
+}
+
+div#we_replace_container {
+    position: absolute;
+    /* display: flex; */
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    /* 
+    z-index: 9;
+    margin-top:100px;
+      margin-left:15%;
+      margin-right:15%; */
+
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0px 0px 25px 0px rgba(170, 170, 170, 0.35);
+    width: 70%;
+    height:80%;
+    border-radius: 15px;
+
+    background-color: white;
+}
+
+div#empaty {
+    height: 350px;
+    width: 100%;
+}
+
+div#part5WeCreate {
+    width: 100%;
+    height: 80%;
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0px 0px 25px 0px rgba(170, 170, 170, 0.25);
+    border-radius: 15px;
+}
+
+
+.parallaxCard {
+    display: inline-block;
+    width: 300px;
+    height: 280px;
+    background-color: #fff;
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0px 0px 25px 0px rgba(170, 170, 170, 0.25);
+    border-radius: 15px;
+    margin-bottom: 10%;
+    font-family: poppins;
+}
+
+.parallaxCard h4,
+.parallaxCard p {
+    padding: 20px;
+}
+.parallaxCard p {
+ margin: 0px;
+ font-family: poppins light;
+ font-size: 18px;
+
+}
+.parallaxCard h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0px;
+    
+}
+
+.parallaxCard hr{
+    width: 40%;
+    height: 2px;
+    background-color: blueviolet;
+    border-radius: 45%;
+    margin-right: 45%;
+}
+
+div#logoRow1 {
+    /* padding: 20px;
+    margin: 5% 0px;;*/
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 25%;
+    margin-top: 1%;
+
+
+
+}
+
+div#logoRow2 {
+    /* padding: 20px;
+    margin: 5% 0px;;*/
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 5%;
+
+
+
+}
+
+
+div#logoRow1 img,
+div#logoRow2 img {
+    width: 8%;
+    height: auto;
+}
+
+.review {
+
+    border: 5px solid blueviolet;
+    border-radius: 30px;
+    min-height: 80%;
+    max-width: 40%;
+    display: inline-block;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+img[alt="review"] {
+    width: 400px;
+    height: auto;
+
+    object-fit: cover;
+
+}
+
+div#reviews {
+    display: flex;
+
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+div#badge {
+    margin: 10% 0px;
+}
+
+div#badge img {
+    width: 10%;
+    height: auto;
+    padding: 0 50px;
+}
+
+div#lastBeforeFooter {
+    width: 70%;
+    height: 30%;
+    margin: 15% 15%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+div#lastBeforeFooter div {
+
+    margin: 0% 5%;
+
+}
+
+div#avatar {
+    width: 20%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+div#middle_thanks {
+    width: 50%;
+    text-align: center;
+}
+
+div#theBlockquote {
+
+
+    width: 30%;
+    text-align: left;
+}
+
+div#avatar img {
+
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+div#form {
+    border: 3px 0px;
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    padding: 0% 0% 10% 0%;
+}
+
+.standardInput {
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: #e1e1e1;
+    border: 1px solid rgba(150, 150, 150, .3);
+    padding: 18px 20px;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: auto;
+    float: left;
+    letter-spacing: normal;
+    font-size: 13px;
+    outline: 0;
+    margin-bottom: 3%;
+}
+
+div.input_width input[type] {
+    width: 49%;
+}
+
+div#form input[type="button"]{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: blueviolet;
+    font-family: poppins;
+    letter-spacing: 0px;
+    border-width: 0px;
+    padding: 22px 44px;
+    width: 100%;
+    transition: width 2s, height 2s, transform 2s;
+    border-radius: 60px;
+}
+
+div#blog {
+    background-color: rgba(27, 27, 27, 1);
+    width: 50%;
+    margin: auto;
+    position: relative;
+
+}
+div.blogElement{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px;
+    border-color: #ffffff8f;
+    border-style: dotted;
+}
+div.blogElement a{
+    text-decoration: none;
+    color: #fff;
+}
+div.blogElement a:hover{
+    text-decoration: none;
+    color: blueviolet;
+}
+div#blog_container {
+    background-color: rgba(27, 27, 27, 1);
+
+
+}
+
+div#medusa_footer {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -160px;
+
+}
+
+div#medusa_footer img {
+    width: 70%;
+    transition: width 2s, height 2s, transform 2s;
+}
+div#medusa_footer img:hover{
+    width: 75%;
+    transform: translate(00px,30px);
+}
+
+p#last a{
+    color: rgb(160, 159, 159);
+    text-decoration: none;
+}
+p#last a:hover{
+
+    color: blueviolet;
+    font-weight: bold;
+}
